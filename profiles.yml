@@ -1,18 +1,15 @@
-config:
-  send_anonymous_usage_stats: False
-
 default:
   outputs:
 
     dev: # User-Password config
       type: snowflake
-      account: your-snowflake-account-id-here
+      account: ZLRZGBX-WMC50466
       user: DBT_CLOUD_DEV
-      password: your-password-here
+      password: Pri1thvimarwadi@2004
       role: TRANSFORMER_DEV
       database: DEV
-      warehouse: TRANSFORMING
-      schema: dbt_your-username-here
+      warehouse: TRANSFORMING_DEV
+      schema: dbt_pmarwadi
       threads: 2
       client_session_keep_alive: False
 
